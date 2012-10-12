@@ -1,0 +1,22 @@
+{
+  "name": "flickr-feeder",
+  "description": "A simple demo of how to use mocha, nock, and expect.js to test a Node.js module.",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "0.8.10",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "request": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "nock": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
