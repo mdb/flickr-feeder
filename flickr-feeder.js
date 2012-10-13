@@ -10,6 +10,6 @@ exports.getFlickrJSON = function(params, callback) {
   _.extend(paramsObj, params);
 
   request(url, {qs: paramsObj}, function (error, response, body) {
-    callback(JSON.parse(body));
+    callback(body);
   });
 };
